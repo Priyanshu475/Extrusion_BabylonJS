@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# 2D-Shape-Extrusion-Manipulation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Goal:
+The goal is to create a Babylon.js application that allows the user to draw arbitrary 2D shapes on the ground plane, extrude them into 3D objects with a fixed height, and then manipulate those objects by moving the object and editing their vertices using buttons for mode selection.
 
-## Available Scripts
+# Tech Stacks: React.JS and BabylonJS
 
-In the project directory, you can run:
+# Features:
+1. A 3D scene with a ground plane.
+2. Functionality to allow the user to draw 2D shapes on the ground plane using mouse<br />
+  - left-click to add points on the platform<br />
+  - right-click to complete the shape <br />
+  - Draw button to enter the draw mode <br />
+3. Extrude button to usedfor the extrusion of 2D Closed loop polygons to a fixed height.
+4. Move button to perform movement of extruded shapes on the ground plane
+5. Edit button to edit the vertices of the extruded object using mouse interactions.
+6. Visual cues and UI elements to indicate the selected object and active editing mode(move or edit vertices).
 
-### `npm start`
+# How To run the application:
+1. Unzip the zip package
+2. Open the folder with terminal and do npm install to install all the dependencies.
+3. use npm start to run the application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 3D scene with Ground plane
+![Screenshot 2024-08-27 091636](https://github.com/user-attachments/assets/3ecd531c-54d1-4d4f-970c-b895666e7c21)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Draw 2D shapes on the ground with mouse interactions
+![Screenshot 2024-08-27 091912](https://github.com/user-attachments/assets/19af7279-802e-4792-8a68-b6e4c8b9b196)
 
-### `npm test`
+# Extrusion of 2D shapes to 3D
+![Screenshot 2024-08-27 091943](https://github.com/user-attachments/assets/e4250269-5962-47a8-a95c-d757e94416d5)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Edit Vertices
+![Screenshot 2024-08-27 092037](https://github.com/user-attachments/assets/a188d1e6-5191-4f8c-b664-dbe14761b880)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
